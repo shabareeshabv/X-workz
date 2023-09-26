@@ -1,0 +1,4 @@
+class Hello{
+public static voiud main(String[] args){
+System.out.println("enter the number");
+}}

@@ -1,0 +1,13 @@
+class FabricMain{
+public static void main(String[] args)
+{
+System.out.println("invoking cylinder");
+
+Fabric value1=new FabricMain();
+Fabric value2=new FabricMain();
+Fabric value3=new FabricMain();
+Fabric value4=new FabricMain();
+Fabric value5=new FabricMain();
+ 
+}
+}

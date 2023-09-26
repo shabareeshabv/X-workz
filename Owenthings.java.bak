@@ -1,0 +1,9 @@
+class Owenthings{
+public static void main(String[] args)
+{ 
+Owen.preheat(180);
+        Owen.bake("Pizza", 20);
+        Owen.broil("Steak", 15);
+        Owen.turnOff();
+    }
+}

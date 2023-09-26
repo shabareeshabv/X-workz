@@ -1,0 +1,5 @@
+class MallMain{
+public static void main(String[] args)
+{
+Mall mall=new Mall("ABC Mall", "Sample Street, City", 2000, 150, true, 5000.5, "Shopping Area", "MallCorp");}
+}

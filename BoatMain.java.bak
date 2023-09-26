@@ -1,0 +1,13 @@
+class BoatMain {
+    public static void main(String[] args) {
+        System.out.println("Invoking main in BoatMain");
+        
+        Boat boat = new Boat();
+        System.out.println(boat.name);
+        System.out.println(boat.price);
+        
+        Boat boat1 = new Boat("Boat1", 1000.0f);
+        System.out.println(boat1.name);
+        System.out.println(boat1.price);
+    }
+}

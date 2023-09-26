@@ -1,0 +1,6 @@
+class FabricMethodMain{
+public static void main(String[] args)
+{
+Fabric.getPrice("cotton","nylon","woolen","linen","polyster","silk");
+}
+}

@@ -1,0 +1,14 @@
+class Boat {
+    String name;
+    float price;
+    
+    Boat() {
+        System.out.println("Invoking default constructor of Boat");
+    }
+    
+    Boat(String name, float price) {
+        this.name = name;
+        this.price = price;
+        System.out.println("Invoking parameterized constructor of Boat");
+    }
+}

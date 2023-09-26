@@ -1,0 +1,28 @@
+class Sticker {
+    public static void main(String[] args) {
+        String design = "Floral";
+        String material = "Vinyl";
+        double width = 10.5;
+        double height = 7.2;
+        boolean isWaterproof = true;
+        String color = "Pink";
+        boolean isRemovable = true;
+        boolean hasGlossFinish = false;
+        String location = "Laptop";
+        String brand = "Example Brand";
+        boolean isHighQuality = true;
+
+        System.out.println("\nSticker Properties:");
+        System.out.println("Design: " + design);
+        System.out.println("Material: " + material);
+        System.out.println("Width: " + width + " cm");
+        System.out.println("Height: " + height + " cm");
+        System.out.println("Waterproof: " + isWaterproof);
+        System.out.println("Color: " + color);
+        System.out.println("Removable: " + isRemovable);
+        System.out.println("Gloss Finish: " + hasGlossFinish);
+        System.out.println("Location: " + location);
+        System.out.println("Brand: " + brand);
+        System.out.println("High Quality: " + isHighQuality);
+    }
+}

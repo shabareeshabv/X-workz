@@ -1,0 +1,15 @@
+class Employee{
+String emp="shabareesha ";
+}
+class ITcompany{
+	public  ITcompany(){
+	}
+    String  company="novigo";
+}
+class FMdemo{
+    public static void main(String[] s)
+    {
+		ITcompany itc=new ITcompany();
+
+    }
+}

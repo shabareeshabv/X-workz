@@ -1,0 +1,27 @@
+public class KulfiMachine {
+    static void measureWeight(double weight, String unit, String flavor) {
+        System.out.println("Measuring weight: " + weight + " " + unit + " for " + flavor + " kulfi...");
+    }
+
+    static void calculatePrice(String flavor, double weight, double pricePerUnit) {
+        double totalPrice = weight * pricePerUnit;
+        System.out.println("Calculating price for " + flavor + " kulfi with weight " + weight + " - Total Price: " + totalPrice);
+		if ( flaor ==chocolate)
+		{
+		System.out.println("kulfi flavor is chocolate");
+		return;
+		}
+		else
+		{
+			System.out.println("kulfi is not chocolate");	
+		}
+    }
+
+    static void displayWeight(String flavor, double weight, String unit) {
+        System.out.println("Displaying weight of " + flavor + " kulfi: " + weight + " " + unit);
+    }
+
+    static void turnOff() {
+        System.out.println("Turning off the kulfi machine...");
+    }
+}

@@ -1,0 +1,46 @@
+class Helmet1{
+	
+	static String logo;
+	static String type;
+	int noOfPieces;
+	String color;
+	
+	Helmet(String logo,String type)
+	{
+		System.out.println("invoking at static argument in helmet"); 
+		this.logo=logo;
+		this.type=type;
+		
+	}
+	
+	Helmet(int noOfPieces,String color)
+	{
+		System.out.println("invoking at Instance argument in helmet"); 
+		this.noOfPieces=noOfPieces;
+		this.color=color;
+	}
+	
+	static{
+		logo="ISI";
+		type="Full Face";
+		System.out.println("invoking at static in helmet"); 
+	}
+	
+	static void printStatic()
+	{
+		
+		System.out.println("invoking at static void in helmet"); 
+		System.out.println(logo);
+		System.out.println(type);
+	}
+	
+	
+	
+	void printInstance()
+	{
+		System.out.println("invoking at void Instance in helmet"); 
+		System.out.println(noOfPieces);
+		System.out.println(color);
+	}
+	
+}
